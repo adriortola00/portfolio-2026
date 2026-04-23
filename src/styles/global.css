@@ -1,8 +1,11 @@
 @import "tailwindcss";
 @theme {
-  --font-sans: Geist, sans-serif;
-  --color-secondary: #161614;
-  --color-primary: #f4f5ef;
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-bg: #F7F4EF;
+  --color-text: #0F0F0F;
+  --color-primary: #3D5A47;
 }
 * {
   font-variant-numeric: tabular-nums;
