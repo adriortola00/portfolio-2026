@@ -1,13 +1,16 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
-
 import sitemap from "@astrojs/sitemap";
+
 export default defineConfig({
-   vite: {
+  site: 'https://adriortola00.github.io', 
+   
+  base: '/portfolio-2026',
+
+  vite: {
     plugins: [tailwindcss()],
   },
-  // add yur domain name here
-  site: 'https://yourdomain.com',
+  
   compressHTML: true,
   integrations: [sitemap()]
 });
